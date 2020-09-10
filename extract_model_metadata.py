@@ -1,5 +1,4 @@
 import os
-from pymediainfo import MediaInfo as mi
 import subprocess
 import pprint
 import json
