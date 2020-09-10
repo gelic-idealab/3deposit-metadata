@@ -26,8 +26,8 @@ def main():
 
     """
 
-    zipped_model_file = './model.zip'   # Path to zipped model file from which to gather metadata
-    base_model_file_path = '/'.join(zipped_model_file.split('/')[0:-1]) # set as base directory, or '' if already in working base direcotry
+    zipped_model_file = './sample_models/croc.zip'   # Path to zipped model file from which to gather metadata
+    base_model_file_path = './tmp'
     # print(zipped_model_file)
     # print(base_model_file_path)
     # unzip_counter = 0   # counter of number of times unzip occurs, to prevent problem in case of file with too many layers of compression
